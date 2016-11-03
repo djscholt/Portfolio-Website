@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'titilliumblack';
+    src: url('../fonts/titillium-black-webfont.woff2') format('woff2'),
+         url('../fonts/titillium-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#home_picture {
+	background-image: url(../images/space.png);
+	background-size: 100%;
+	position: relative;
+	background-repeat: no-repeat;
+}
+#main_nav {
+	height: 90px;
+}
+#nav_unactive_page_1{
+	text-decoration: none;
+	font-family: "Baskerville Old Face", Helvetica, Arial, sans-serif;
+	font-size:40px;
+	color: #B2bcc0;
+	top:10px;
+}
+
+#nav_unactive_page_2{
+	text-decoration: none;
+	font-family: "Baskerville Old Face", Helvetica, Arial, sans-serif;
+	font-size:40px;
+	color: #B2bcc0;
+	top:10px;	
+}
+#nav_active_page{
+	text-decoration: none;
+	font-family: "Baskerville Old Face", Helvetica, Arial, sans-serif;
+	font-size: 60px;
+	color: #B2bcc0;
+}
+#name_block{
+	color:#b2bcc0;
+	padding-top: 15%;
+	
+	font-family: "Baskerville Old Face", Helvetica, Arial, sans-serif;
+
+}
+
+#mea{
+	font-size:30px;
+}
+#bg{
+	margin:0px;
+	padding:0px;
+	background-color:#b2bcc0;
+}
+#row1, #row2, #row3,#row4, #row5, #row6, #row7, #row8{
+	height:300px;
+	width:100%;
+	margin:0px;
+	padding:0px;
+	background-color:#b2bcc0;
+}
+#row3{
+	height:500px;
+}
+#row5,#row6,#row7, #row8{
+	position:relative;
+	top:50px;
+}
+
+#blue_box{
+	margin:3%;
+	background-color:#153340;
+	height:90%;
+	color: #b2bcc0;
+}
+#grey_box{
+	margin:3%;
+	background-color:#7fb4ca;
+	height:90%;
+	color: #3c3f40;
+	font-size: 32px;
+	line-height: 2;
+	letter-spacing:3px;
+}
+#box_1{
+	position:absolute;
+	width:46.5%;
+	margin:3%;
+	background-color:#7fb4ca;
+	height:20%;
+	left: 300px;
+}
+#box_2{
+	position:absolute;
+	width:60%;
+	margin:3%;
+	background-color:#7fb4ca;
+	height:20%;
+	left: 50px;
+}
+#box_3{
+	position:absolute;
+	width:60%;
+	margin:3%;
+	background-color:#153340;
+	height:40%;
+	left: 50px;
+}
+#box_4,#box_8{
+	position:absolute;
+	width:60%;
+	margin:3%;
+	background-color:#7fb4ca;
+	height:40%;
+	left: 50px;
+}
+#box_5,#box_6,#box_7{
+	position:relative;
+	width:60%;
+	margin:3%;
+	background-color:#153340;
+	height:40%;
+	left: 50px;
+	padding: 25px;
+	top: 50px;
+}
+#box_8{
+	width:83%;
+}
+a:link, a:visited{
+	color:#b2bcc0;
+	text-decoration:none;
+}
+a:hover{
+	color:#7fb4ca;	
+	text-decoration:none;
+}
+a:active{
+	color:white;	
+	text-decoration:none;
+}
+#mepic{
+	position: absolute;
+	top: 140px;
+	left: 30px;
+	right: 0px;
+}
+#mich{
+	position: relative;
+	top: 75px;
+	left: 1400px;
+	right: 0px;
+}
+#aerologo,#motlogo,#fflogo{
+	position: relative;
+	left: 1200px;
+	width: 300px;
+	height: 120px;
+	top: -25px;
+	background-color: white;
+}
+#stratus_heading{
+	font-size: 45px;
+}
+#stratus_snippet{
+	font-size: 32px;
+}
+#stratus{
+}
+.img-responsive.img-center{
+	margin-left:auto;
+	margin-right:auto;	
+}
+#aerosnippet{
+	font-size:32px;	
+}
+
+#name{
+	font-size: 55px;
+	margin: 0px;
+	}
+@media only screen and (max-width: 400px) {
+	#name{
+	font-size: 22px;
+	margin: 0px;
+	}
+	#name_block{
+	color:#b2bcc0;
+	padding-top: 3%;
+	font-family: "Baskerville Old Face", Helvetica, Arial, sans-serif;
+	}
+	#mea{
+	font-size:16px;
+	}
+	#aerosnippet{
+	font-size:22px;	
+	}
+	#stratus_heading{
+	font-size: 5px;
+	}
+	#stratus_snippet{
+	font-size: 5px;
+}
+
+}
+@media only screen and (max-width: 899px) {
+	#name_block{
+	color:#b2bcc0;
+	padding-top: 5%;
+	font-family: "Baskerville Old Face", Helvetica, Arial, sans-serif;
+	}
+	#aerosnippet{
+	font-size:17px;	
+	}
+	#stratus_heading{
+	font-size: 35px;
+	}
+	#stratus_snippet{
+	font-size: 25px;
+	}
+
+}
